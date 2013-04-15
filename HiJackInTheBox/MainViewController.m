@@ -18,9 +18,9 @@
 @synthesize cardStatus;
 
 -(void) dataChanged {
-    NSLog(@"Main view Data changed:%d", sensorValue);
-    [self.cardStatus setText:@"TEST"];
-    
+//    NSLog(@"Main view Data changed:%d", sensorValue);
+//[self.cardStatus performSelectorOnMainThread : @ selector(setText : ) withObject:@"TEST111" waitUntilDone:YES];    
+
 //    [cardStatus setText:@"NO card"];
 //    if (sensorValue == 0) {
 //        [self.view. setText: @"Card inserted"];
@@ -28,7 +28,17 @@
 //        [self.cardStatus setText: @"NO card inserted"];
 //    }
 }
+-(void) cardInserted {
+    NSLog(@"card inserted");
+    [self.cardStatus performSelectorOnMainThread : @ selector(setText : ) withObject:@"card inserted" waitUntilDone:YES];
 
+}
+
+-(void) cardRemoved {
+    NSLog(@"card removed");
+    [self.cardStatus performSelectorOnMainThread : @ selector(setText : ) withObject:@"card removed" waitUntilDone:YES];
+    
+}
 //- (IBAction)buttonClick:(id)sender {
 ////    NSLog(@"*****Button click****");
 ////    [self.button setTitle:@"button" forState:UIControlStateNormal];

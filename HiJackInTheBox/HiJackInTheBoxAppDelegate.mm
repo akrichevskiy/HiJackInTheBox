@@ -18,10 +18,16 @@
 @synthesize viewController=_viewController;
 
 -(int) receive:(UInt8)data; {
-//    NSLog(@"data %i", data);
+    NSLog(@"data %i", data);
 //    float sensorValue=(float)data/255;
     self.viewController.sensorValue = data;
-    [self.viewController dataChanged];
+    
+//    [self.viewController dataChanged];
+    if(data > 150) {
+        [self.viewController cardInserted];
+    } else {
+        [self.viewController cardRemoved];
+    }
     return 0;
 }
 

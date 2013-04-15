@@ -18,7 +18,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-//@property (nonatomic, retain) IBOutlet HiJackInTheBoxViewController *viewController;
 @property (nonatomic, retain) IBOutlet MainViewController *viewController;
 
 @end

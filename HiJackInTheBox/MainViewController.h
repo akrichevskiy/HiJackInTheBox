@@ -18,6 +18,8 @@
 @property (retain, nonatomic) IBOutlet UILabel *cardStatus;
 
 -(void) dataChanged;
+-(void) cardInserted;
+-(void) cardRemoved;
 //- (IBAction)buttonClick:(id)sender;
 
 
