@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "HiJackMgr.h"
 
-@class HiJackInTheBoxViewController;
+//@class HiJackInTheBoxViewController;
+@class MainViewController;
 
 @interface HiJackInTheBoxAppDelegate : NSObject <UIApplicationDelegate,HiJackDelegate> {
     HiJackMgr* hiJackMgr;
@@ -17,6 +18,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet HiJackInTheBoxViewController *viewController;
+//@property (nonatomic, retain) IBOutlet HiJackInTheBoxViewController *viewController;
+@property (nonatomic, retain) IBOutlet MainViewController *viewController;
 
 @end

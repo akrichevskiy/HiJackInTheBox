@@ -15,18 +15,14 @@
 		84A6742914012F940030CF39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A6742714012F940030CF39 /* InfoPlist.strings */; };
 		84A6742C14012F940030CF39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6742B14012F940030CF39 /* main.m */; };
 		84A6742F14012F940030CF39 /* HiJackInTheBoxAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A6742E14012F940030CF39 /* HiJackInTheBoxAppDelegate.mm */; };
-		84A6743214012F940030CF39 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6743014012F940030CF39 /* MainWindow.xib */; };
-		84A6743414012F940030CF39 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 84A6743314012F940030CF39 /* Shader.fsh */; };
-		84A6743614012F940030CF39 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 84A6743514012F940030CF39 /* Shader.vsh */; };
-		84A6743914012F940030CF39 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6743814012F940030CF39 /* EAGLView.m */; };
-		84A6743C14012F940030CF39 /* HiJackInTheBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6743B14012F940030CF39 /* HiJackInTheBoxViewController.m */; };
-		84A6743F14012F940030CF39 /* HiJackInTheBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6743D14012F940030CF39 /* HiJackInTheBoxViewController.xib */; };
 		84A6744A14012FDD0030CF39 /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A6744714012FDD0030CF39 /* HiJackMgr.mm */; };
 		84A6744B14012FDD0030CF39 /* aurio_helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A6744914012FDD0030CF39 /* aurio_helper.cpp */; };
 		84A67453140130330030CF39 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A6744D140130330030CF39 /* CADebugMacros.cpp */; };
 		84A67454140130330030CF39 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A6744F140130330030CF39 /* CAXException.cpp */; };
 		84A67455140130330030CF39 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A67452140130330030CF39 /* CAStreamBasicDescription.cpp */; };
 		84A674591401329E0030CF39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A674581401329E0030CF39 /* AudioToolbox.framework */; };
+		F9CCEF6E171C7D760016F490 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CCEF6D171C7D760016F490 /* MainViewController.m */; };
+		F9CCEF78171CB4CC0016F490 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9CCEF77171CB4CC0016F490 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,14 +38,6 @@
 		84A6742B14012F940030CF39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A6742D14012F940030CF39 /* HiJackInTheBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiJackInTheBoxAppDelegate.h; sourceTree = "<group>"; };
 		84A6742E14012F940030CF39 /* HiJackInTheBoxAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HiJackInTheBoxAppDelegate.mm; sourceTree = "<group>"; };
-		84A6743114012F940030CF39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		84A6743314012F940030CF39 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		84A6743514012F940030CF39 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		84A6743714012F940030CF39 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
-		84A6743814012F940030CF39 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
-		84A6743A14012F940030CF39 /* HiJackInTheBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiJackInTheBoxViewController.h; sourceTree = "<group>"; };
-		84A6743B14012F940030CF39 /* HiJackInTheBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiJackInTheBoxViewController.m; sourceTree = "<group>"; };
-		84A6743E14012F940030CF39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HiJackInTheBoxViewController.xib; sourceTree = "<group>"; };
 		84A6744614012FDD0030CF39 /* HiJackMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiJackMgr.h; sourceTree = "<group>"; };
 		84A6744714012FDD0030CF39 /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HiJackMgr.mm; sourceTree = "<group>"; };
 		84A6744814012FDD0030CF39 /* aurio_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aurio_helper.h; sourceTree = "<group>"; };
@@ -62,6 +50,9 @@
 		84A67451140130330030CF39 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 		84A67452140130330030CF39 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
 		84A674581401329E0030CF39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F9CCEF6C171C7D760016F490 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F9CCEF6D171C7D760016F490 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F9CCEF77171CB4CC0016F490 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +108,9 @@
 				84A6744514012FA30030CF39 /* Lib */,
 				84A6742D14012F940030CF39 /* HiJackInTheBoxAppDelegate.h */,
 				84A6742E14012F940030CF39 /* HiJackInTheBoxAppDelegate.mm */,
-				84A6743014012F940030CF39 /* MainWindow.xib */,
-				84A6743314012F940030CF39 /* Shader.fsh */,
-				84A6743514012F940030CF39 /* Shader.vsh */,
-				84A6743714012F940030CF39 /* EAGLView.h */,
-				84A6743814012F940030CF39 /* EAGLView.m */,
-				84A6743A14012F940030CF39 /* HiJackInTheBoxViewController.h */,
-				84A6743B14012F940030CF39 /* HiJackInTheBoxViewController.m */,
-				84A6743D14012F940030CF39 /* HiJackInTheBoxViewController.xib */,
+				F9CCEF77171CB4CC0016F490 /* MainWindow.xib */,
+				F9CCEF6C171C7D760016F490 /* MainViewController.h */,
+				F9CCEF6D171C7D760016F490 /* MainViewController.m */,
 				84A6742514012F940030CF39 /* Supporting Files */,
 			);
 			path = HiJackInTheBox;
@@ -215,10 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A6742914012F940030CF39 /* InfoPlist.strings in Resources */,
-				84A6743214012F940030CF39 /* MainWindow.xib in Resources */,
-				84A6743414012F940030CF39 /* Shader.fsh in Resources */,
-				84A6743614012F940030CF39 /* Shader.vsh in Resources */,
-				84A6743F14012F940030CF39 /* HiJackInTheBoxViewController.xib in Resources */,
+				F9CCEF78171CB4CC0016F490 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,13 +214,12 @@
 			files = (
 				84A6742C14012F940030CF39 /* main.m in Sources */,
 				84A6742F14012F940030CF39 /* HiJackInTheBoxAppDelegate.mm in Sources */,
-				84A6743914012F940030CF39 /* EAGLView.m in Sources */,
-				84A6743C14012F940030CF39 /* HiJackInTheBoxViewController.m in Sources */,
 				84A6744A14012FDD0030CF39 /* HiJackMgr.mm in Sources */,
 				84A6744B14012FDD0030CF39 /* aurio_helper.cpp in Sources */,
 				84A67453140130330030CF39 /* CADebugMacros.cpp in Sources */,
 				84A67454140130330030CF39 /* CAXException.cpp in Sources */,
 				84A67455140130330030CF39 /* CAStreamBasicDescription.cpp in Sources */,
+				F9CCEF6E171C7D760016F490 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,22 +232,6 @@
 				84A6742814012F940030CF39 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84A6743014012F940030CF39 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A6743114012F940030CF39 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		84A6743D14012F940030CF39 /* HiJackInTheBoxViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A6743E14012F940030CF39 /* en */,
-			);
-			name = HiJackInTheBoxViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -308,15 +274,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: KR Am (39WS7JN39K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: KR Am (39WS7JN39K)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HiJackInTheBox/HiJackInTheBox-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HiJackInTheBox/HiJackInTheBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "749CDE4B-2B78-40C0-8916-4C3E0FB49922";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "749CDE4B-2B78-40C0-8916-4C3E0FB49922";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -325,14 +297,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: KR Am (39WS7JN39K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: KR Am (39WS7JN39K)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HiJackInTheBox/HiJackInTheBox-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "HiJackInTheBox/HiJackInTheBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "749CDE4B-2B78-40C0-8916-4C3E0FB49922";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "749CDE4B-2B78-40C0-8916-4C3E0FB49922";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
