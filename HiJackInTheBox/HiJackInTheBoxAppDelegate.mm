@@ -23,7 +23,7 @@
     self.viewController.sensorValue = data;
     
 //    [self.viewController dataChanged];
-    if(data > 150) {
+    if(data == 0) {
         [self.viewController cardInserted];
     } else {
         [self.viewController cardRemoved];
